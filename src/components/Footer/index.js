@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import useStyles from "../Styling";
-import { makeStyles } from "@material-ui/core/styles";
+
 
 
 function Copyright() {
@@ -24,15 +24,15 @@ export default function Footer() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+   
       
       
       <footer className={classes.footer}>
         <Container maxWidth="sm">
-          <Typography variant="body1">Do the Dew</Typography>
+          <Typography variant="body1">Keep it Simple</Typography>
           <Copyright />
         </Container>
       </footer>
-    </div>
+    
   );
 }
