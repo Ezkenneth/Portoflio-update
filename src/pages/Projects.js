@@ -40,7 +40,7 @@ function Projects() {
         <Card className={classes.projectCard} elevation={12} variant="outlined" >
         <CardMedia
           className={classes.projectMedia}
-          image="assets/images/pokestay.PNG"
+          image="assets/images/pokestay.png"
           title="Project Screenshot"
         />
         <CardContent>
