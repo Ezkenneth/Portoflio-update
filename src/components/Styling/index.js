@@ -61,6 +61,7 @@ const useStyles = makeStyles((theme) => ({
     bioCard: {
       height: 230,
       margin: theme.spacing(2, 0, 2)
+      
     },
     bioMedia: {
       height: 165,
