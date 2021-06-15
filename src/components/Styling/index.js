@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
       },
       projectCard: {
         maxWidth: 830,
-        height: 780,
+        height: 820,
         margin: theme.spacing(12, 0, 0)
       },
       projectMedia: {
