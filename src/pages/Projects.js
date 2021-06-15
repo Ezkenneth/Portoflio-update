@@ -9,6 +9,7 @@ import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import useStyles from '../components/Styling';
+import Grid from '@material-ui/core/Grid';
 function Projects() {
 
   const classes = useStyles();
@@ -35,7 +36,29 @@ function Projects() {
         <Button size="small" color="primary" href="https://github.com/Ezkenneth/GAIDO" target="_blank">
           See More
         </Button>
+        <Button size="small" color="primary" href="https://ezkenneth.github.io/GAIDO/" target="_blank">
+          Deployed Link
+        </Button>
+        
       </CardActions>
+      <hr></hr>
+      <Grid container spacig={3}className={classes.roleText}>
+          <Grid item xs={6}><Typography variant="h6" color="textPrimary"  >
+         Role:
+          </Typography></Grid>
+          <Grid item xs={6}><Typography variant="body" color="textSecondary"  >
+         Lead Developer
+          </Typography></Grid>
+          <Grid item xs={6}>  <Typography variant="h6" color="textPrimary"  >
+         Technologies Used:
+          </Typography></Grid>
+          <Grid item xs={6}>
+          <Typography variant="body" color="textSecondary"  >
+        HTML, CSS, JS, Bulma, APIs.
+          </Typography>
+          </Grid>
+      </Grid>
+    
         </Card>
         <Card className={classes.projectCard} elevation={12} variant="outlined" >
         <CardMedia
@@ -47,7 +70,7 @@ function Projects() {
           <Typography gutterBottom variant="h5" component="h2">
             Pokestay
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textSecondary" component="p" >
           Pokemon STAY makes databases fun! Users can select their starter Pokemon. Upon creating their account, users are then taken to the members page where random "wild" Pokemon appear from our database.
           </Typography>
         </CardContent>
@@ -56,7 +79,27 @@ function Projects() {
         <Button size="small" color="primary"  href="https://github.com/kirsralk/Group4-Project2" target="_blank">
           See More
         </Button>
+        <Button size="small" color="primary"  href="https://group4-project2.herokuapp.com/" target="_blank">
+          Deployed Link
+        </Button>
       </CardActions>
+      <hr></hr>
+      <Grid container spacig={3}className={classes.roleText}>
+          <Grid item xs={6}><Typography variant="h6" color="textPrimary"  >
+         Role:
+          </Typography></Grid>
+          <Grid item xs={6}><Typography variant="body" color="textSecondary"  >
+         Backend Developer
+          </Typography></Grid>
+          <Grid item xs={6}>  <Typography variant="h6" color="textPrimary"  >
+          Technologies Used:
+          </Typography></Grid>
+          <Grid item xs={6}>
+          <Typography variant="body" color="textSecondary"  >
+          JS, NodeJS, Express, Handlebars, MySQL, REST APIs
+          </Typography>
+          </Grid>
+      </Grid>
         </Card>
         <Card className={classes.projectCard} elevation={12} variant="outlined" >
         <CardMedia
@@ -77,7 +120,27 @@ function Projects() {
         <Button size="small" color="primary"  href="https://github.com/Ezkenneth/Budget-Tracker" target="_blank">
           See More
         </Button>
+        <Button size="small" color="primary"  href="https://obscure-spire-11105.herokuapp.com/" target="_blank">
+          Deployed Link
+        </Button>
       </CardActions>
+      <hr></hr>
+      <Grid container spacig={3}className={classes.roleText}>
+          <Grid item xs={6}><Typography variant="h6" color="textPrimary"  >
+         Role:
+          </Typography></Grid>
+          <Grid item xs={6}><Typography variant="body" color="textSecondary"  >
+         Developer
+          </Typography></Grid>
+          <Grid item xs={6}>  <Typography variant="h6" color="textPrimary"  >
+          Technologies Used:
+          </Typography></Grid>
+          <Grid item xs={6}>
+          <Typography variant="body" color="textSecondary"  >
+          HTML, CSS, JS, NodeJS, Express, PWA, MongoDB, GIT, REST APIs
+          </Typography>
+          </Grid>
+      </Grid>
         </Card>
         <Card className={classes.projectCard} elevation={12} variant="outlined" >
         <CardMedia
@@ -98,7 +161,27 @@ function Projects() {
         <Button size="small" color="primary"  href="https://github.com/Ezkenneth/Workout-Tracker" target="_blank">
           See More
         </Button>
+        <Button size="small" color="primary"  href="https://obscure-spire-11105.herokuapp.com/" target="_blank">
+          Deployed Link
+        </Button>
       </CardActions>
+      <hr></hr>
+      <Grid container spacig={3}className={classes.roleText}>
+          <Grid item xs={6}><Typography variant="h6" color="textPrimary"  >
+         Role:
+          </Typography></Grid>
+          <Grid item xs={6}><Typography variant="body" color="textSecondary"  >
+          Developer
+          </Typography></Grid>
+          <Grid item xs={6}>  <Typography variant="h6" color="textPrimary" >
+          Technologies Used:
+          </Typography></Grid>
+          <Grid item xs={6}>
+          <Typography variant="body" color="textSecondary"  >
+          HTML, CSS, JS, NodeJS, Express, PWA, MongoDB, GIT, REST APIs
+          </Typography>
+          </Grid>
+      </Grid>
         </Card>
         <Card className={classes.projectCard} elevation={12} variant="outlined" >
         <CardMedia
@@ -119,7 +202,27 @@ function Projects() {
         <Button size="small" color="primary"  href="https://github.com/Ezkenneth/Notes-App" target="_blank">
           See More
         </Button>
+        <Button size="small" color="primary"  href="https://vast-harbor-22173.herokuapp.com/" target="_blank">
+          Deployed Link
+        </Button>
       </CardActions>
+      <hr></hr>
+      <Grid container spacig={3}className={classes.roleText}>
+          <Grid item xs={6}><Typography variant="h6" color="textPrimary"  >
+         Role:
+          </Typography></Grid>
+          <Grid item xs={6}><Typography variant="body" color="textSecondary"  >
+          Developer
+          </Typography></Grid>
+          <Grid item xs={6}>  <Typography variant="h6" color="textPrimary"  >
+          Technologies Used:
+          </Typography></Grid>
+          <Grid item xs={6}>
+          <Typography variant="body" color="textSecondary"  >
+          HTML, CSS, JS, NodeJS, Express, PWA, MySQL, GIT, REST APIs
+          </Typography>
+          </Grid>
+      </Grid>
         </Card>
        
       

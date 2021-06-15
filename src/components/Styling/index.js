@@ -24,14 +24,14 @@ const useStyles = makeStyles((theme) => ({
       },
       projectCard: {
         maxWidth: 830,
-        height: 650,
+        height: 780,
         margin: theme.spacing(12, 0, 0)
       },
       projectMedia: {
         height: 500,
       },
       projectActions: {
-        padding: theme.spacing(0, 0, 0),
+       marginLeft: 2,
       },
       carousel: {
         height: 1010,
@@ -68,6 +68,9 @@ const useStyles = makeStyles((theme) => ({
       borderRadius: 5,
       margin: theme.spacing(-2.5, 0, 0)
      
+    },
+    roleText: {
+      marginLeft: 15,
     },
   }));
 
